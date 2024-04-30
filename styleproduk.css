@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+  }
+
+.hero {
+    padding-top: 5%;
+    width: 100%;
+    background-color: #132A3C;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5%; 
+}
+
+
+:root{
+    --main-color: #132A3C;
+    --second-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+}
+
+.title p {
+    text-align: justify;
+}
+
+.footer{
+    background-color: #132A3C;
+}
+
+.hero h2{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.custom-button {
+    background-color: teal;
+    color: white;
+    font-size: 2px;
+    border-radius: 0.15rem;
+}
+
+.btn-success{
+    background-color: rgb(3, 121, 121);
+    font-size: 13px;
+    border-radius: 0.2rem;
+}
+
+.card-title{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.card-text{
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.card-title.btn.custom-button {
+    font-size: 12px;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+.footer-box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.sosmed{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.sosmed a .bx{
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 10px;
+    background: #e1f0fbe0;
+    border-radius: 0.2rem;
+}
+
+.sosmed a .bx:hover{
+    background: #204c6d;
+    color: var(--bg-color);
+    transition: 0.18s all linear;
+}
+
+.footer-box h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.footer-box li a{
+    color: var(--text-color);
+}
+
+.footer-box li a:hover{
+    color: #2a6897;
+}
+
+.kontak {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.kontak span{
+    display: flex;
+    align-items: center;
+}
+
+.kontak i{
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.paymen {
+    margin-top: -8px;
+    margin-right: 30px;
+    width: 190px;
+}
+
+img {
+    width: 100%;
+}
+
+

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #132A3C;
+    --second-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    color: var(--text-color);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+
+.kalimat {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(backgroundcolor.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: left;
+}
+
+.kalimat h1{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.kalimat p{
+    text-align: justify;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+.footer-box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.sosmed{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.sosmed a .bx{
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 10px;
+    background: #e1f0fbe0;
+    border-radius: 0.2rem;
+}
+
+.sosmed a .bx:hover{
+    background: #204c6d;
+    color: var(--bg-color);
+    transition: 0.18s all linear;
+}
+
+.footer-box h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.footer-box li a{
+    color: var(--text-color);
+}
+
+.footer-box li a:hover{
+    color: #2a6897;
+}
+
+.kontak {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.kontak span{
+    display: flex;
+    align-items: center;
+}
+
+.kontak i{
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.paymen {
+    margin-top: -8px;
+    margin-right: 30px;
+    width: 190px;
+}
+
+.card-grid {
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 18rem;
+    height: 10rem;
+    background-color: rgba(97, 108, 173, 0.221);
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+}
+
+.card:hover{
+    background: #204c6d;
+    color: var(--bg-color);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
